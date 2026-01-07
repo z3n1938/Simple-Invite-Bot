@@ -1,4 +1,4 @@
-# 🚀 Invite Gönder Botu
+content = """# 🚀 Invite Gönder Botu
 
 Belirli bir role otomatik olarak davet linki gönderen Discord botu.
 Discord.js v14 ile geliştirilmiştir.
@@ -59,3 +59,4 @@ MIT License
 Özgürce kullanabilir, değiştirebilir ve paylaşabilirsin.
 
 Made with ❤️ by z3n1938
+"""
