@@ -61,7 +61,7 @@ module.exports = {
 ## 📦 Kurulum
 
 ### 1️⃣ Repo’yu klonla
-git clone https://github.com/KULLANICIADIN/Invite-Gonder-Botu.git
+git clone https://github.com/z3n1938/Simple-Invite-Bot.git
 cd Invite-Gonder-Botu
 
 ### 2️⃣ Gerekli paketleri yükle
