@@ -1,0 +1,2 @@
+!davetgönder <davet_linki> <gecikme_saniye> <rol_id>
+!davetgönder https://discord.gg/uV7GMSm3 5 1456748661374455982
