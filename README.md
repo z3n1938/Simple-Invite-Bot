@@ -3,9 +3,10 @@
 **Modern, sade ve tek amaçlı Discord davet gönderme botu**
 Discord.js v14 ile geliştirilmiştir. Belirli bir role, belirlenen gecikme süresiyle otomatik olarak davet linki gönderir.
 
-![Discord.js] Discord.js v14
-![Node.js] Node.js >= 18
-![License] MIT
+![Discord.js](https://img.shields.io/badge/Discord.js-v14-blue.svg?logo=discord&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-%3E%3D%2018-green.svg)
+![License](https://img.shields.io/github/license/z3n1938/Simple-Invite-Bot)
+![Stars](https://img.shields.io/github/stars/z3n1938/Simple-Invite-Bot)
 
 ------------------------------------------------------------
 
