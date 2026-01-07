@@ -1,61 +1,98 @@
 content = """# 🚀 Invite Gönder Botu
 
-Belirli bir role otomatik olarak davet linki gönderen Discord botu.
-Discord.js v14 ile geliştirilmiştir.
+**Modern, sade ve tek amaçlı Discord davet gönderme botu**
+Discord.js v14 ile geliştirilmiştir. Belirli bir role, belirlenen gecikme süresiyle otomatik olarak davet linki gönderir.
 
-===============================
-GENEL ÖZELLİKLER
-===============================
-- Özel davet linki gönderme
-- Rol bazlı DM gönderimi
-- Mesajlar arası gecikme (saniye)
-- Tek komut sistemi
-- Hafif ve sade yapı
+![Discord.js] Discord.js v14
+![Node.js] Node.js >= 18
+![License] MIT
 
-===============================
-KOMUT KULLANIMI
-===============================
+------------------------------------------------------------
 
-Komut Formatı:
-!davetgönder <davet_linki> <gecikme_saniye> <rol_id>
+## ✨ Genel Özellikler
 
-Örnek:
-!davetgönder https://discord.gg/uV7GMSm3 5 1456748661374455982
+- 🔗 **Davet Linki Gönderme**
+- 👥 **Rol Bazlı Üye Seçimi**
+- ⏱ **Gecikmeli Gönderim (Anti-Spam)**
+- 📩 **Özel Mesaj (DM) ile Gönderim**
+- ⚙️ **Tek Komutla Kullanım**
+- ⚡ **Hafif ve Stabil Yapı**
+- 🧩 **Kolay Özelleştirilebilir**
 
-Açıklama:
-- davet_linki: Gönderilecek Discord davet linki
-- gecikme_saniye: Her mesaj arası bekleme süresi (saniye)
-- rol_id: Davetin gönderileceği rolün ID'si
+------------------------------------------------------------
 
-===============================
-BOT NASIL ÇALIŞIR
-===============================
-- Belirtilen roldeki üyeleri alır
-- Her üyeye DM üzerinden davet linki gönderir
-- Mesajlar arasında belirtilen süre kadar bekler
-- DM kapalı olan kullanıcıları otomatik geçer
+## 📤 Davet Gönderme Sistemi
+
+- Belirtilen davet linkini kullanır
+- Belirtilen roldeki üyelere gönderir
+- Her mesaj arasında ayarlanabilir gecikme uygular
+- DM kapalı olan kullanıcıları otomatik atlar
 - İşlem sonunda bilgilendirme mesajı verir
 
-===============================
-UYARI
-===============================
-Çok düşük gecikme süreleri spam olarak algılanabilir.
-Önerilen minimum gecikme: 3-5 saniye
+------------------------------------------------------------
 
-===============================
-KURULUM
-===============================
-1) npm install
-2) .env dosyası oluştur
+## 🛠 Komut Sistemi
+
+### Komut Formatı
+!davetgönder <davet_linki> <gecikme_saniye> <rol_id>
+
+### Örnek Kullanım
+!davetgönder https://discord.gg/uV7GMSm3 5 1456748661374455982
+
+### Parametreler
+- davet_linki      : Gönderilecek Discord davet linki
+- gecikme_saniye   : Her kullanıcıya mesaj gönderme aralığı (saniye)
+- rol_id           : Davetin gönderileceği rolün ID'si
+
+------------------------------------------------------------
+
+## 🛠 Komut Yapısı (Örnek)
+
+module.exports = {
+  name: \"davetgönder\",
+  execute(client, message, args) {
+    // davet gönderme kodları
+  }
+};
+
+------------------------------------------------------------
+
+## 📦 Kurulum
+
+### 1️⃣ Repo’yu klonla
+git clone https://github.com/KULLANICIADIN/Invite-Gonder-Botu.git
+cd Invite-Gonder-Botu
+
+### 2️⃣ Gerekli paketleri yükle
+npm install
+
+### 3️⃣ .env dosyasını oluştur
 TOKEN=bot_tokenin_buraya
 PREFIX=!
 
-3) node index.js
+### 4️⃣ Botu başlat
+node index.js
 
-===============================
-LİSANS
-===============================
-MIT License
+------------------------------------------------------------
+
+## 🔐 Gerekli Yetkiler
+
+- View Channels
+- Send Messages
+- Create Instant Invite
+
+------------------------------------------------------------
+
+## ⚠️ Uyarı
+
+Çok düşük gecikme süreleri Discord tarafından spam olarak algılanabilir.
+Önerilen minimum gecikme süresi: **3–5 saniye**
+
+------------------------------------------------------------
+
+## 📄 Lisans
+
+Bu proje MIT License ile lisanslanmıştır.
 Özgürce kullanabilir, değiştirebilir ve paylaşabilirsin.
 
 Made with ❤️ by z3n1938
