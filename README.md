@@ -1,4 +1,4 @@
-content = """# 🚀 Invite Gönder Botu
+## 🚀 Invite Gönder Botu
 
 **Modern, sade ve tek amaçlı Discord davet gönderme botu**
 Discord.js v14 ile geliştirilmiştir. Belirli bir role, belirlenen gecikme süresiyle otomatik olarak davet linki gönderir.
